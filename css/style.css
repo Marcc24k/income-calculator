@@ -1,0 +1,43 @@
+
+
+body{
+    background-color: darkslategrey;
+}
+
+#wage-box {
+    position: absolute;
+    background-color: rgba(61, 29, 195, 0.39);
+    width: 161px;
+    min-height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 49px 1px black;
+    padding: 10px;
+    left: 40%;
+    top: 30%;
+    color: darkgoldenrod;
+}
+
+input{
+    position: relative;
+    display: block;
+    margin: 5px;
+    color: tomato;
+    font-weight:bold;
+    font-family: monospace;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #73c7be;
+    color: #03010a;
+    font-family: monospace;
+    left: 70px;
+    position: absolute;
+    margin: 5px;
+}
+
+button:hover{
+    background-color: #1e6da8;
+    filter: blur(1px)
+}

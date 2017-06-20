@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="app1" ng-init="person = { fName: ' Marc ', lName : ' Cook ' }; ">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angular practice</title>
+
+    <!--	<link rel="stylesheet" href="css/normalize.css">-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="wage-box" ng-controller="ctrl1">
+
+        <span>Income Calculator:</span>
+        <p>Wage:</p>
+        <input type="text" ng-model="wage" />
+        <p>Hours Worked:</p>
+        <input type="text" ng-model="workHrs" />
+
+
+        <button ng-click="updateValue()">Sum</button>
+        <br>
+        <br> {{calculation}}
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src='js/angular.min.js'></script>
+    <script src='js/exam.js'></script>
+</body>
+
+</html>
